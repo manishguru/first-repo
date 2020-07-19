@@ -1,2 +1,6 @@
-tx = 'Hello World'
-print(tx)
+def printit():
+  tx = 'Hello World'
+  print(tx)
+
+  
+printit()
