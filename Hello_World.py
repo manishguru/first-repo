@@ -1,5 +1,7 @@
+tx = None
 def printit():
-  tx = input('Enter Hello world')
+  while tx != 'Hello World':
+   tx = input('Enter Hello World')
   print(tx)
   print('You entered the right words')
 
